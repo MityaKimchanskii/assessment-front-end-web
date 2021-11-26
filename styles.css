@@ -1,0 +1,132 @@
+body {
+  
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: inline-block;
+}
+
+img {
+	max-width: 500px;
+}
+
+#google{
+	display: inline-block;
+    width: auto;
+}
+
+#friend{
+	display: inline-block;
+    width: auto;
+}
+
+#other{
+	display: inline-block;
+    width: auto;
+}
+
+/* ////////////////   profile  ///////////////////// */
+
+#color{
+	background-color: rgb(180, 178, 71);
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+}
+
+#place{
+	background-color: rgb(180, 178, 71);
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+}
+
+#ritual{
+	background-color: rgb(180, 178, 71);
+	height: 50px;
+	width: 150px;
+	display: inline-block;
+}
+#textProfile{
+	text-indent: 1cm;
+	text-align: justify;
+}
+
+#goals{
+	text-align: left;
+	padding-left: 1cm;
+}
+
+#contact{
+	display: table-row;
+	padding: 0.2cm;
+}
+
+#title{
+	font-size: 30px;
+  	color: #fff;
+ 	 text-align: center;
+ 	 -webkit-animation: glow 1s ease-in-out infinite alternate;
+ 	 -moz-animation: glow 1s ease-in-out infinite alternate;
+	  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow{
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5ce600, 0 0 40px #41e600, 0 0 50px #26e600, 0 0 60px #26e600, 0 0 70px #e60073;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #4d94ff, 0 0 40px #4d50ff, 0 0 50px #4d68ff, 0 0 60px #4da0ff, 0 0 70px #4d68ff, 0 0 80px #ff4da6;
+	}
+  }
+  /* ///////////////////////   neighborhood //////////////////////////////// */
+
+  #titleNeighb{
+	  text-align: center;
+  }
+
+  .textNighborhood{
+	text-indent: 1cm;
+	text-align: justify;
+  }
+
+  #button{
+	  text-align: center;
+  }
+  #placeNeighb{
+	background-color: darkgoldenrod;
+	color: darkblue;
+	font-size: 20pt;
+	margin: 0 auto;
+	height: 1cm;
+	width: 10cm;
+  }
